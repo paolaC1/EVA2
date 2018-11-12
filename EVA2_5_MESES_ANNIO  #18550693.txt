@@ -1,0 +1,84 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    cout << "introduce un numero" << endl;
+    int meses;
+    
+    cin >> meses;
+    if (meses == 1) {
+        cout << "Enero" << endl;
+    } else {
+        if (meses == 2) {
+            cout << "Febrero" << endl;
+        } else {
+            if (meses == 3) {
+                cout << "Marzo" << endl;
+            } else {
+                if (meses == 4) {
+                    cout << "Abril" << endl;
+                } else {
+                    if (meses == 5) {
+                        cout << "Mayo" << endl;
+                    } else {
+                        if (meses == 6) {
+                            cout << "Junio" << endl;
+                        } else {
+                            if (meses == 7) {
+                                cout << "Julio" << endl;
+                            } else {
+                                if (meses == 8) {
+                                    cout << "Agosto" << endl;
+                                } else {
+                                    if (meses == 9) {
+                                        cout << "Septiembre" << endl;
+                                    } else {
+                                        if (meses == 10) {
+                                            cout << "Octubre" << endl;
+                                        } else {
+                                            if (meses == 11) {
+                                                cout << "Noviembre " << endl;
+                                            } else {
+                                                if (meses == 12) {
+                                                    cout << "Diciembre" << endl;
+                                                } else {
+                                                    cout << "Valor no valido" << endl;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return 0;
+}
+
+// The following implements type conversion functions.
+string toString (double value) { //int also
+    stringstream temp;
+    temp << value;
+    return temp.str();
+}
+
+int toInt (string text) {
+    return atoi(text.c_str());
+}
+
+double toDouble (string text) {
+    return atof(text.c_str());
+}

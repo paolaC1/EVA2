@@ -1,0 +1,39 @@
+print("introduce un numero")
+meses = int(input())
+if meses == 1:
+    print("Enero")
+else:
+    if meses == 2:
+        print("Febrero")
+    else:
+        if meses == 3:
+            print("Marzo")
+        else:
+            if meses == 4:
+                print("Abril")
+            else:
+                if meses == 5:
+                    print("Mayo")
+                else:
+                    if meses == 6:
+                        print("Junio")
+                    else:
+                        if meses == 7:
+                            print("Julio")
+                        else:
+                            if meses == 8:
+                                print("Agosto")
+                            else:
+                                if meses == 9:
+                                    print("Septiembre")
+                                else:
+                                    if meses == 10:
+                                        print("Octubre")
+                                    else:
+                                        if meses == 11:
+                                            print("Noviembre ")
+                                        else:
+                                            if meses == 12:
+                                                print("Diciembre")
+                                            else:
+                                                print("Valor no valido")

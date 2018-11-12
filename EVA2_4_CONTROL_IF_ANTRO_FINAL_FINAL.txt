@@ -1,0 +1,8 @@
+print("¿Qué edad tienes?")
+iEdad = int(input())
+print("¿tiene INE?")
+bINE = (input().lower == 'true')
+if iEdad >= 18 and bINE == True:
+    print("Puedes pasar")
+else:
+    print("No puede pasar")

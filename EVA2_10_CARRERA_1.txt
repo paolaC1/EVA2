@@ -1,0 +1,13 @@
+materiasterminadas = True
+if materiasterminadas == True:
+    servicioliberado = True
+    if servicioliberado:
+        residencias = True
+        if recidencias == True:
+            print("Te puedes titular ")
+        else:
+            print("aun no")
+    else:
+        print("aun no")
+else:
+    print("aun no")

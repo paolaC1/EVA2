@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 06:08:33 p. m."/>
+        <attribute name="created" value="SW52aXRhZG87UEFPTEE7MjAxOC0xMS0xMTswNTo1NTo0NCBwLiBtLjsyNjY1"/>
+        <attribute name="edited" value="SW52aXRhZG87UEFPTEE7MjAxOC0xMS0xMTswNjowODozMyBwLiBtLjsyOzI3NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="iedades" type="Integer" array="False" size=""/>
+            <output expression="&quot;intorduce tu edad &quot;" newline="True"/>
+            <input variable="iedades"/>
+            <output expression="&quot;intorduce tu edad &quot;" newline="True"/>
+            <input variable="iedades"/>
+            <output expression="&quot;intorduce tu edad &quot;" newline="True"/>
+            <input variable="iedades"/>
+            <output expression="&quot;intorduce tu edad &quot;" newline="True"/>
+            <input variable="iedades"/>
+            <output expression="&quot;intorduce tu edad &quot;" newline="True"/>
+            <input variable="iedades"/>
+            <output expression="&quot;la media es &quot; + iedades/5" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

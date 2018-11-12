@@ -1,0 +1,48 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    int anno;
+    
+    anno = 1996;
+    int res4;
+    
+    res4 = anno % 4;
+    int res100;
+    
+    res100 = anno % 100;
+    int res400;
+    
+    res400 = anno % 400;
+    if (res4 == 0 && (!(res100 == 0) || res400 == 0)) {
+        cout << "bisiesto" << endl;
+    } else {
+        cout << "no bisiesto" << endl;
+    }
+    return 0;
+}
+
+// The following implements type conversion functions.
+string toString (double value) { //int also
+    stringstream temp;
+    temp << value;
+    return temp.str();
+}
+
+int toInt (string text) {
+    return atoi(text.c_str());
+}
+
+double toDouble (string text) {
+    return atof(text.c_str());
+}

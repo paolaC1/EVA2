@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-17 09:25:57 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAwMTsyMDE4LTEwLTE3OzA4OjU3OjIyIGEuIG0uOzI4ODk="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAwMTsyMDE4LTEwLTE3OzA5OjI1OjU3IGEuIG0uOzE7MzAwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="materiasterminadas" type="Boolean" array="False" size=""/>
+            <assign variable="materiasterminadas" expression="true"/>
+            <if expression="materiasterminadas == true">
+                <then>
+                    <declare name="servicioliberado" type="Boolean" array="False" size=""/>
+                    <assign variable="servicioliberado" expression="true"/>
+                    <if expression="servicioliberado">
+                        <then>
+                            <declare name="recidencias" type="Boolean" array="False" size=""/>
+                            <assign variable="residencias" expression="true"/>
+                            <if expression="recidencias == true">
+                                <then>
+                                    <output expression="&quot;Te puedes titular &quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;aun no&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;aun no&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;aun no&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

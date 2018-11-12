@@ -1,0 +1,7 @@
+materiasterminadas = True
+servicioliberado = True
+recidencias = True
+if materiasterminadas == True and servicioliberado == True and recidencias == True:
+    print("Te pouedes titular ")
+else:
+    print("aun no")

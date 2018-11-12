@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-17 09:52:12 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMTAwMTsyMDE4LTEwLTE3OzA4OjU3OjIyIGEuIG0uOzI4ODk="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMTAwMTsyMDE4LTEwLTE3OzA5OjUyOjEyIGEuIG0uOzI7Mjk5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anno" type="Integer" array="False" size=""/>
+            <assign variable="anno" expression="1996"/>
+            <declare name="res4" type="Integer" array="False" size=""/>
+            <assign variable="res4" expression="anno % 4"/>
+            <declare name="res100" type="Integer" array="False" size=""/>
+            <assign variable="res100" expression="anno % 100"/>
+            <declare name="res400" type="Integer" array="False" size=""/>
+            <assign variable="res400" expression="anno % 400"/>
+            <if expression="(res4 == 0) &amp;&amp; (!(res100 == 0) || (res400 == 0))">
+                <then>
+                    <output expression="&quot;bisiesto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;no bisiesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

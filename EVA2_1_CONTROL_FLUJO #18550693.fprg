@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-10 11:26:05 p. m."/>
+        <attribute name="created" value="SW52aXRhZG87UEFPTEE7MjAxOC0xMS0xMDsxMToxOTozNSBwLiBtLjsyNjYx"/>
+        <attribute name="edited" value="SW52aXRhZG87UEFPTEE7MjAxOC0xMS0xMDsxMToyNjowNSBwLiBtLjsxOzI3NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Que calificacion obtuviste en fundamentos de programaci&#242;n?&quot;" newline="True"/>
+            <declare name="icalifa" type="Real" array="False" size=""/>
+            <input variable="icalifa"/>
+            <if expression="icalifa &gt; 70">
+                <then>
+                    <output expression="&quot;Aprobaste&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprobaste&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

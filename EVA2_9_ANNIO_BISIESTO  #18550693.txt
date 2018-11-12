@@ -1,0 +1,9 @@
+print("INTRODUCE UN AÑO")
+iAnno = int(input())
+if float(iAnno) / 100 == 0:
+    print("No es bisiesto")
+else:
+    if iAnno % 4 == 0:
+        print("Si es bisiesto")
+    else:
+        print("No es bisiesto")

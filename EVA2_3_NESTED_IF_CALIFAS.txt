@@ -1,0 +1,18 @@
+print("Ingresa tu calificación")
+ical = int(input())
+if ical == 100:
+    print("A")
+else:
+    if ical == 90:
+        print("B")
+    else:
+        if ical == 80:
+            print("C")
+        else:
+            if ical == 70:
+                print("D")
+            else:
+                if ical <= 60:
+                    print("F")
+                else:
+                    print("Califciaciónn fuera de rango")

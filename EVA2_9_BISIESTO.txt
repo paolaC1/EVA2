@@ -1,0 +1,8 @@
+anno = 1996
+res4 = anno % 4
+res100 = anno % 100
+res400 = anno % 400
+if res4 == 0 and (not res100 == 0 or res400 == 0):
+    print("bisiesto")
+else:
+    print("no bisiesto")

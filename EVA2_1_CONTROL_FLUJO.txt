@@ -1,0 +1,6 @@
+print("¿Que calificacion obtuviste en fundamentos de programaciòn?")
+icalifa = float(input())
+if icalifa > 70:
+    print("Aprobaste")
+else:
+    print("Reprobaste")
